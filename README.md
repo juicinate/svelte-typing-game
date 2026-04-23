@@ -19,3 +19,10 @@ pnpm i && pnpm run dev
 ```bash
 pnpm run build && pnpm run preview
 ```
+
+## Docker
+
+```bash
+docker build -t svelte-typing-game .
+docker run --rm -p 3000:3000 svelte-typing-game
+```
